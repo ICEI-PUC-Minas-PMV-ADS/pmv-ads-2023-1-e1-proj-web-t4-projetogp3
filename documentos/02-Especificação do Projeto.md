@@ -4,37 +4,54 @@ A equipe responsável por este projeto consolidou a definição precisa do probl
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Por meio de um formulário de pesquisa no Google Forms, que contou com a participação de mais de 20 pessoas, foi possível criar a maioria das personas, gerando um entendimento claro sobre o público-alvo e seus problemas. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+1. - NOME: Maria Santos.
+   - IDADADE: 20.
+   - OCUPAÇÃO: Estudante.
+   - APLICATIVOS: Instagram, Youtube, Twitch, Twitter.
+   - MOTIVAÇÕES: Estabilidade financeira e visibilidade.
+   - FRUSTAÇÕES: Falta de hadware atualizado, falta de segurança e estabilidade econômica no Brasil, falta de oportunidades.
+   - HOBBIES, HISTÓRIA: Jogar MOBA (League of Legends), ler contos romântico, assistir podcasts de variedades. 
+   <br>
+2. - NOME: Pedro Silva.
+   - IDADADE: 16.
+   - OCUPAÇÃO: Menor Aprendiz.
+   - APLICATIVOS: TikTok, Twitch, Instagram.
+   - MOTIVAÇÕES: Reconhecimento, diversão e renda.
+   - FRUSTAÇÕES: Sistema educional tradicional, diferenças de renda comparada com o dólar.
+   - HOBBIES, HISTÓRIA: Jogar Fortnite, Valorant, publicar stories.
+   <br>
+3. - NOME: Felipe Rocha.
+   - IDADADE: 31.
+   - OCUPAÇÃO: Desenvolvedor Freelancer
+   - APLICATIVOS: Instagram, Linkedin, Facebook, Youtube.
+   - MOTIVAÇÕES: Melhoria na qualidade de vida, filantropia, resolver problemas computacionais complexos e realizar o sonho da casa própria.
+   - FRUSTAÇÕES: Viver com os pais, fobia social, dificuldades em controle de peso e colesterol.
+   - HOBBIES, HISTÓRIA: Hackatons e contribuir em projetos de código aberto, publicar em seu substack novidades de tecnologia e fóruns de ética AI.
+   <br>
+4. - NOME: Francisca Suzuki
+   - IDADADE: 27
+   - OCUPAÇÃO: Professora de Sociologia
+   - APLICATIVOS: Instagram, TikTok, Twitch, Facebook e Twitter.
+   - MOTIVAÇÕES: Debate político e movimento estudantil, interação social.
+   - FRUSTAÇÕES: Preconceito contra mulheres gamers, injustiça social contra classes menos privilegiadas.
+   - HOBBIES, HISTÓRIA: Jogar RPG, Assistir steaming de just chatting, ler contos épicos e de fantasia.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na compreensão da rotina das personas identificadas para o projeto, foram documentadas as seguintes histórias de usuário. 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Maria Santos  | Trabalhar numa área de interesse           | Ter um melhor desempenho na carreira e me sentir satisfeita com a profissão que exerço |
+|Maria Santos  | Possuir visibilidade no meio digital       | Ter o conteúdo apreciado por uma grande comunidade |  
+|Pedro Silva   | Ter um público que me assista jogando      | Inspirar outras pessoas a jogarem bem |
+|Pedro Silva   | Trabalhar com jogos                        | Ganhar dinheiro me divertindo enquanto mostra minha gameplay |
+|Felipe Rocha  | Trabalhar em casa                          | Conseguir me sustentar com uma melhor qualidade de vida |
+|Felipe Rocha  | Rentabilizar meus hobbies                  | Ganhar dinheiro com o que sinto prazer em fazer |
+|Francisca Suzuki | Levar entretenimento ao público         | Interagir com muitas pessoas usando minha criatividade |
+|Francisca Suzuki | Dividir meu conhecimento                | Orientar outras pessoas em assuntos que domino |
 
 ## Requisitos
 
@@ -44,31 +61,36 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O usuário poderá cria um cadastro no site, e realizar login no mesmo.| ALTA |  
-|RF-002| O usuário poderá personalizar seu perfil inserindo imagem, biografia e nome de usuário.| ALTA |
+|RF-01 | Criar conta e fazer login | ALTA |  
+|      | O usuário poderá criar um cadastro no site, e realizar login no mesmo  |
+|RF-02 | Criar e customizar o perfil | ALTA |
+|      | O usuário poderá personalizar seu perfil inserindo imagem, biografia e nome de usuário |
+|RF-03 | Acesso às páginas de introdução, links e conteúdos | ALTA |
+|      | O usuário deverá ter acesso ao feed principal, à demais páginas de conteúdo criadas por outros usuários e aos links redirecionáveis inseridos em postagens |
+|RF-04 | Adicionar páginas de conteúdo | Média |
+|      | O usuário poderá inserir, editar e deletar (se de sua autoria.) páginas de tópicos relacionados a sua pesquisa |
+|RF-05 | Pesquisar por informações | ALTA |
+|      | O usuário poderá pesquisar por mídias, informações e todo o conteúdo existente no site |
+|RF-06 | Interagir na comunidade | ALTA |
+|      | O usuário poderá adicionar, editar, excluir comentários em publicações |
+|RF-07 | Dar feedback do conteúdo | Média |
+|      | O usuário deverá adicionar o seu feedback em relação a sua experiência com o site |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-01 | Perfomance | ALTA |
+|       | A fim de satisfazer o cliente, é importante que o sistema possa acessar o conteúdo disponibilizado rapidamente para fornecer informações atualizadas sobre equipamentos, materiais e tarefas agendadas | 
+|RNF-02 | Confiabilidade |  ALTA |
+|       | Uma aplicação de qualidade deve prever falhas por desacordo ou erros humanos e ter recursos de backup e recuperação de informações para evitar perda de dados e retrabalho | 
+|RNF-03 | Disponibilidade | ALTA |
+|       | Site deve ficar disponível 24 horas, 7 dias na semana |
+|RNF-04 | Usabilidade | MÉDIA |
+|       | O sistema pode ser acessado via navegador na internet de qualquer computador com conexão de internet de 1Mbps ou superior |
+|RNF-05 | Segurança | ALTA |
+|       | Login com nome de usuário e senha são checados e validados pelo sistema | 
 
 ## Restrições
 
@@ -76,12 +98,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| Baixo orçamento |
+|02| Equipe composta por poucos membros |
+|03| O projeto deverá estar concluído até final do semestre |
+|04| O projeto deverá ser concluído sem alteração de membros da equipe |
