@@ -37,7 +37,8 @@ Por meio de um formulário de pesquisa no Google Forms, que contou com a partici
    - MOTIVAÇÕES: Debate político e movimento estudantil, interação social.
    - FRUSTAÇÕES: Preconceito contra mulheres gamers, injustiça social contra classes menos privilegiadas.
    - HOBBIES, HISTÓRIA: Jogar RPG, Assistir steaming de just chatting, ler contos épicos e de fantasia.
-</b>
+</b></br>
+
 ## Histórias de Usuários
 
 Com base na compreensão da rotina das personas identificadas para o projeto, foram documentadas as seguintes histórias de usuário. 
