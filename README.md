@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# PROJETO – REDE SOCIAL GAMER 
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1° Período`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Estamos desenvolvendo um projeto de site voltado para o público gamer. O objetivo do site é proporcionar um espaço de interação e troca de informações entre os usuários, que poderão compartilhar seus gostos por jogos, filmes e animes. Além disso, o site também terá como objetivo ajudar aqueles que desejam se tornar youtubers ou streamers, fornecendo dicas e informações sobre como começar nessa carreira.
 
 ## Integrantes
 
