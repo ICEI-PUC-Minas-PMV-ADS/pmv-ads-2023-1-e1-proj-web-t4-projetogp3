@@ -5,7 +5,7 @@ A equipe responsável por este projeto consolidou a definição precisa do probl
 ## Personas
 
 Por meio de um formulário de pesquisa no Google Forms, que contou com a participação de mais de 20 pessoas, foi possível criar a maioria das personas, gerando um entendimento claro sobre o público-alvo e seus problemas. 
-
+<b>
 1. - NOME: Maria Santos.
    - IDADADE: 20.
    - OCUPAÇÃO: Estudante.
@@ -37,7 +37,7 @@ Por meio de um formulário de pesquisa no Google Forms, que contou com a partici
    - MOTIVAÇÕES: Debate político e movimento estudantil, interação social.
    - FRUSTAÇÕES: Preconceito contra mulheres gamers, injustiça social contra classes menos privilegiadas.
    - HOBBIES, HISTÓRIA: Jogar RPG, Assistir steaming de just chatting, ler contos épicos e de fantasia.
-
+</b>
 ## Histórias de Usuários
 
 Com base na compreensão da rotina das personas identificadas para o projeto, foram documentadas as seguintes histórias de usuário. 
