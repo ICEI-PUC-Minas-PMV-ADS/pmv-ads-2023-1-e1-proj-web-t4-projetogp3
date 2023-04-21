@@ -6,7 +6,6 @@
 
 `1° Período`
 
-O projeto tem como objetivo
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
