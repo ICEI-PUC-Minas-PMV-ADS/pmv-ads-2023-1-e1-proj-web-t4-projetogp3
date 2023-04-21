@@ -1,10 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A equipe responsável por este projeto consolidou a definição precisa do problema e identificou os pontos mais relevantes a serem tratados por meio de uma imersão, que incluiu a observação dos usuários em seu ambiente natural e entrevistas. Durante esse processo, foram levantados detalhes que foram organizados na forma de personas e histórias de usuários. 
 
 ## Personas
 
@@ -48,8 +44,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O usuário poderá cria um cadastro no site, e realizar login no mesmo.| ALTA |  
+|RF-002| O usuário poderá personalizar seu perfil inserindo imagem, biografia e nome de usuário.| ALTA |
 
 
 ### Requisitos não Funcionais
