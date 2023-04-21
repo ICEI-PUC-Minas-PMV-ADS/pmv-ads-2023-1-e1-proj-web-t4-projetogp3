@@ -1,46 +1,28 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Segundo um estudo online recente realizado com uma amostra de conveniência composta por 1.814 jogadores de e-sports, observou-se que a carreira no e-sports é mais atrativa para adolescentes e jovens adultos com idade inferior a 24 anos. (eNet, 2017).  
+Não é de se surpreender a popularidade entre os jovens jogadores que buscam uma carreira no e-sports, uma vez que existem altos potenciais de ganhos e reconhecimento e fama concedidos aos melhores jogadores de e-sports. Entre os ganhos potenciais estão prêmios em dinheiro por participação em torneios esportivos, remunerações de equipes, patrocínios e renda proveniente de streaming. 
+Além de ser um hobby ou uma atividade esportiva, buscar uma carreira no e-sports implica que jogar videogames de forma competitiva pode ser considerado um trabalho individual. As motivações por trás da jogabilidade competitiva são importantes para influenciar os jogadores a optarem pelos esportes eletrônicos como uma escolha de carreira. 
+Em síntese, estudos prévios indicam que a competição, a busca por desafios, os fatores sociais e o desejo de autodesenvolvimento são as principais motivações entre jogadores profissionais de e-sports. Ademais, jogadores de e-sports têm motivações distintas dos jogadores casuais, e tais motivações mudam ao longo da carreira. Entretanto, estudos prévios ainda suscitam a questão acerca de quais motivações são mais relevantes nos estágios iniciais de se tornar um profissional de e-sports. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Dificuldade em encontrar uma comunidade nichada e estruturada que oriente e acolha usuários interessados em participar da área de e-sports e livestreams.  
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo principal consiste em criar um website informativo e orientativo para integrar os usuários à comunidade de entretenimento gamer e gerar lucro. 
+Podemos destacar como objetivos específicos: 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Informar os desafios enfrentados ao seguir uma carreira profissional como jogador de videogame. 
+- Promover a conscientização sobre as formas de obtenção de renda. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+De acordo com um artigo da Games Magazine Brasil, a indústria de jogos no Brasil tem crescido de forma constante e já é considerada um dos principais mercados de entretenimento digital no mundo. Conforme estatísticas atualizadas, o setor obteve mais de R$11 bilhões em 2021 e conta com a atuação de mais de 500 empresas que produzem jogos para diversas plataformas. 
+Contudo, existe uma escassez de canais de orientação que auxiliem os usuários a determinar a melhor estratégia para alcançar seus objetivos, sejam eles se tornarem um streamer de sucesso ou um jogador profissional. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O e-sports, é uma modalidade esportiva na qual os jogadores competem online atraindo atenção de várias pessoas pelo mundo. Este universo, vem crescendo exponencialmente, segundo pesquisa realizada em 2021 pela revista Game Brasil, 55,4% dos gamers brasileiros, conhecem e praticam a modalidade. 
+Com base nestes dados, desejamos com este projeto criar um canal de acesso fácil e objetivo à informações referentes aos jovens que desejam entrar ao mundo do e-sports, com intuito de sanar dúvidas da comunidade gamer e geek, sendo estes homens e mulheres geralmente com idades entre 16 e 24 anos.
