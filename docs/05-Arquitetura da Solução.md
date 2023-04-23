@@ -28,7 +28,7 @@ Com base aos fluxos, a landing page contará com informações iniciativas e con
 Um vez conectado, há um menu principal (tela 05) com conteúdo customizado com base ao escolhido no perfil (tela 06). Finalmente, se pleanteiam opções para iteraçāo entre usuários (tela 07).
 
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/userflow.png)
 
 
 ## Tecnologias Utilizadas
