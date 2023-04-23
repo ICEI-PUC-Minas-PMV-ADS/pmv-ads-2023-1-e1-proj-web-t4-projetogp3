@@ -5,7 +5,7 @@ Dentre as preocupações para a montagem da interface do 	sistema, estamos estab
 
 ## User Flow
 
-![Exemplo de UserFlow](img/Diagrama.png)
+![Exemplo de UserFlow](img/userflow.png)
 
 O diagrama apresentado mostra o fluxo de interação do usuário pelas telas do sistema.
 
@@ -37,7 +37,7 @@ A tela de recuperação, o usuário deverá fornecer seus dados que foram cadast
 ![RECUPERAÇÃO](img/Recuperação.png)
 
 ### <b>PRINCIPAL</b><br>
-A tela principal apresentará, notícias específicas e informação de direcionamento de acordo com a preferência do usuário.
+A tela principal apresentará notícias específicas e informação de direcionamento de acordo com a preferência do usuário.
 
 ![PRINCIPAL](img/Principal.png)
 
