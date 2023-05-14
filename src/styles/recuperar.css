@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(to right, #000, #2d0b00);
+    height: 3.5em;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+
+.bar, .main {
+    flex-direction: row;
+    display: flex;
+    align-items: center; 
+    gap: 3em;
+    font-weight: bold;
+}
+
+.active {
+    background-color:#;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bar a{
+    text-decoration: none;
+    color: rgb(192, 8, 192);
+    transition: 1s;
+}
+.logo-header {
+    width: 45px;
+}
+
+.text{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;   
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user i{
+    font-size: 29px;
+    margin-right: 7px;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    margin:0;
+    min-height: 100%;
+    padding-bottom: 45vh;
+    background-color: #00172E;
+    color: white;
+}
+
+
+.principal {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgconteudo{
+    display: flex;
+    padding: 35px 0 30px;
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(to right, #000, #2d0b00);
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+    line-height: 25px;
+    color: white;
+    padding: 35px 0 30px;
+    border-top-left-radius: 125px;
+    line-height: 20px;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+
+}
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3) {
+    flex-basis: 15%;
+}
+
+.logo {
+    width: 155px;
+    margin-bottom: 30px;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 50px;
+}
+
+form .fa-solid{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input {
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .fa-solid {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.social-icons .fa-brands {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.underline {
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span {
+    width: 15px;
+    height: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+.recover_password {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    width: 450px;
+    padding: 16px;
+    
+}
+
+.recover_password input { 
+    border: 1px solid rgb(192, 8, 192);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.recover_password button {
+    background-color: #1a033f;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    width: 40px;
+    margin-top: 8px;
+}
+
+.passowrd_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+@keyframes moving {
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+    .col {
+        flex-basis: 100%;
+    }
+    
+    .col:nth-child(2), .col:nth-child(3) {
+        flex-basis: 100%;
+    }
+}
