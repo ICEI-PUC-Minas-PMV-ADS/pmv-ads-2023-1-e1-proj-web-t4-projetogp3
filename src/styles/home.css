@@ -88,6 +88,10 @@ body {
     cursor: pointer;
 }
 
+a:link{
+    text-decoration: none;
+}
+
 .gowtitle{
     display: block;
     padding-left: 290px;
