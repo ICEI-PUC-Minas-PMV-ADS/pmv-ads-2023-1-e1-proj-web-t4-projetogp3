@@ -24,7 +24,6 @@ header {
 }
 
 .active {
-    background-color:#;
     padding: 10px;
     border-radius: 10px;
 }
@@ -279,4 +278,8 @@ hr {
     .col:nth-child(2), .col:nth-child(3) {
         flex-basis: 100%;
     }
+}
+
+a:link{
+    text-decoration: none;
 }
