@@ -60,6 +60,7 @@ button.actions {
     height: 40px;
     border: 2px solid ;
     border-radius: 10px;
+    cursor: pointer;
   }
 
 
