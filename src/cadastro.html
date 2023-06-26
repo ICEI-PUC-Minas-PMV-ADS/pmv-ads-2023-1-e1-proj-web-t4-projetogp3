@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="bar">
-            <a href="../home.html" class="active">Home</a>
+            <a href="home.html" class="active">Home</a>
             <a href="#">Quem Somos</a>
             <a href="#">Serviços</a>
             <a href="#">Contato</a>
@@ -30,50 +30,114 @@
     <main>
         <!-- ADICIONAR AQUI OS CONTEÚDOS DA PÁGINA!!! -->
         <div class="cadastro">
-                <div class="c-texto">    
-                    <h1>Cadastro</h1>
-                    <br>
-                    <h4>Para aproveitar todas as funções e <br> utilidades do site é preciso fazer seu cadastro.</h4>
-                    <br>
+            <h1>Cadastro</h1>
+            <h4>Para aproveitar todas as funções e <br>utilidades do site é preciso fazer seu cadastro.</h4>
+            <br>
+            <form id="form">
+                <div>
+                    <input type="text" placeholder="Digite seu nome" class="inputs required" oninput="nameValidate()">
+                    <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
                 </div>
-                <div class="box">        
-                        <input type="text" placeholder="Nome">
-                        <label for="Nome"></label>
+                <div>
+                    <input type="text" placeholder="Digite seu email" class="inputs required" oninput="emailValidate()">
+                    <span class="span-required">Digite seu email</span>
                 </div>
-                <div class="box">
-                        <input type="text" placeholder="E-mail">
-                        <label for="E-mail"></label>
+                <div>
+                    <input type="password" placeholder="Senha" class="inputs required" oninput="mainPasswordValidate()">
+                    <span class="span-required">Digite uma senha com no mínimo 5 caracteres</span>
                 </div>
-                <div class="box">
-                        <input type="password" placeholder="Senha">
-                        <label for="Senha"></label>
+                <div>
+                    <input type="password" placeholder="Repita a sua senha" class="inputs required" oninput="comparePassword()">
+                    <span class="span-required">Senhas devem ser compatíveis</span>
                 </div>
-                <button class="submit" type="submit">Cadastrar</button>
-                <div class="c-texto">
-                        <br>
-                        <h5>Ao clicar em cadastrar você concorda com os <br> termos e política de privacidade</h5> 
-                        <br>
-                        <b>Já possui uma conta?</b> 
-                        <a href="login.html">CLIQUE PARA LOGAR</a>
-                </div>
-        </div>
-        
-        
-       
-
-
-        
+                <button type="submit" class="submit">Cadastrar</button>
+            </form>
+            <h5>Ao clicar em cadastrar você concorda com os <br> termos e política de privacidade</h5> 
+            <br>
+            <b>Já possui uma conta?</b> 
+            <a href="login.html">CLIQUE PARA LOGAR</a>
     </main>
+    <script>
+        const form   = document.getElementById('form');
+        const campos = document.querySelectorAll('.required');
+        const spans  = document.querySelectorAll('.span-required');
+        const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            nameValidate();
+            emailValidate();
+            mainPasswordValidate();
+            comparePassword();
+        });
+
+
+        function setError(index){
+            campos[index].style.border = '2px solid #e63636';
+            spans[index].style.display = 'block';
+        }
+
+        function removeError(index){
+            campos[index].style.border = '';
+            spans[index].style.display = 'none';
+        }
+
+        function nameValidate(){
+            if(campos[0].value.length < 3)
+            {
+                setError(0);
+            }
+            else
+            {
+                removeError(0);
+            }
+        }
+
+        function emailValidate(){
+            if(!emailRegex.test(campos[1].value))
+            {
+                setError(1);
+            }
+            else
+            {
+                removeError(1);
+            }
+        }
+
+        function mainPasswordValidate(){
+            if(campos[2].value.length < 5)
+            {
+                setError(2);
+            }
+            else
+            {
+                removeError(2);
+                comparePassword();
+            }
+        }
+
+        function comparePassword(){
+            if(campos[2].value == campos[3].value && campos[3].value.length >= 5)
+            {
+                removeError(3);
+            }
+            else
+            {
+                setError(3);
+            }
+        }
+
+    </script>
     <footer>
         <div class="row">
             <div class="col">
-                <img src="img/logo.png" alt="Logo do Projeto" class="logo">
+                <img src="img/logo.png" class="logo" alt="logo">
                 <p>Frase de slogan da empresa</p>
             </div>
             <div class="col">
                 <h3>Início <div class="underline"><span></span></div></h3>
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="home.html">Home</a></li>
                     <li><a href="">Quem Somos</a></li>
                     <li><a href="">Serviços</a></li>
                     <li><a href="">Contato</a></li>
