@@ -10,15 +10,15 @@
     <title>Página Inicial</title>
 </head>
 <body class="cointainer">
-    <header>
-        <div class="header" id="header">
-            <div class="logo-header">
-                <img src="img/planet.png" alt="LOGO PG">
-            </div>
+<header>
+    <div class="header" id="header">
+        <div class="logo-header">
+            <img src="img/planet.png" alt="LOGO PG">
         </div>
-        <script type="text/javascript">
-            function startTime()
-            {
+    </div>
+    <script type="text/javascript">
+        function startTime()
+        {
             var today=new Date();
             var h=today.getHours();
             var m=today.getMinutes();
@@ -27,105 +27,105 @@
             s=checkTime(s);
             document.getElementById('txt').innerHTML=h+":"+m+":"+s;
             t=setTimeout('startTime()',500);
-            
-            }
-            
-            function checkTime(i)
-            {
+
+        }
+
+        function checkTime(i)
+        {
             if (i<10)
-              {
-              i="0" + i;
-              }
-            return i;
+            {
+                i="0" + i;
             }
-            </script>
-            <div id="txt">
-            <script type="text/javascript">document.write(startTime())</script>
+            return i;
+        }
+    </script>
+    <div id="txt">
+        <script type="text/javascript">document.write(startTime())</script>
+    </div>
+    <div class="bar">
+        <a href="index.html" class="active">Home</a>
+        <a href="quemsomos.html">Quem Somos</a>
+        <a href="service.html">Serviços</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    <div class="main">
+        <a href="login.html" class="user"><i class="fa-solid fa-user"></i>Login</a>
+        <a href="cadastro.html" class="register">Cadastrar</a>
+    </div>
+</header>
+<main>
+    <!-- ADICIONAR AQUI OS CONTEÚDOS DA PÁGINA!!! -->
+    <div class="principal">
+        <h4>Descubra informações e o melhor caminho para a sua carreira</h4>
+        <h1>FAÇA PARTE!</h1>
+    </div>
+    <div class="imgconteudo">
+        <img src="img/gow.png" alt="postergame" width="500" height="500">
+        <img src="img/spider.png" alt="postergame" width="500" height="500">
+        <img src="img/esports.png" alt="esports" width="500" height="500">
+    </div>
+    <div class="title">
+        <h2 class="gowtitle"><a href="https://br.ign.com/god-of-war-ragnarok/108632/news/acabou-a-esperanca-proximo-god-of-war-nao-tera-recurso-pedido-por-muitos-fas-diz-cory-barlog#:~:text=Ainda%20não%20há%20qualquer%20tipo,em%20God%20of%20War%20Ragnarok." target="_blank">God of War: Ragnarok</a></h2>
+        <h2 class="spidertitle"><a href="https://meups.com.br/noticias/marvels-spider-man-2-o-melhor-da-insomniac/" target="_blank">Spider-Man 2</a></h2>
+        <h2 class="esportstitle"><a href="https://criticalhits.com.br/games/profissao-gamer-veja-como-o-mercado-de-esports-tem-se-profissionalizado-no-brasil/" target="_blank">eSports</a></h2>
+    </div>
+    <div class="description">
+        <p class="gowdescription">Acabou a esperança! Próximo God of War não terá recurso pedido por muitos fãs, diz Cory Barlog.</p>
+        <p class="spiderdescription">Marvel’s Spider-Man 2: dev quer entregar “o melhor jogo” já feito pelo estúdio.</p>
+        <p class="esportsdescription">Profissão gamer: veja como o mercado de eSports tem se profissionalizado no Brasil.</p>
+    </div>
+    <div class="titlecurso">
+        <h1>A sua jornada começa aqui!</h1>
+        <p>Somos uma equipe que ajuda todos os dias novos profissionais realizarem seus sonhos no mundo gamer.</p>
+        <img src="img/curso.png" alt="feliz">
+    </div>
+</main>
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="img/logo.png" class="logo" alt="logo">
+            <p>Frase de slogan da empresa</p>
+        </div>
+        <div class="col">
+            <h3>Início <div class="underline"><span></span></div></h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="service.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="">Parceiros</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Utilidades <div class="underline"><span></span></div></h3>
+            <ul>
+                <li><a href="">Ajude-nos a melhorar</a></li>
+                <li><a href="">Termos de uso</a></li>
+                <li><a href="">Aviso de privacidade</a></li>
+                <li><a href="">Preferência de cookies</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Receba novidades no email! <div class="underline"><span></span></div></h3>
+            <form>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Seu email" required>
+                <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
             </div>
-        <div class="bar">
-            <a href="home.html" class="active">Home</a>
-            <a href="#">Quem Somos</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
         </div>
-        <div class="main">
-            <a href="login.html" class="user"><i class="fa-solid fa-user"></i>Login</a>
-            <a href="cadastro.html" class="register">Cadastrar</a>
-        </div>
-    </header>
-    <main>
-        <!-- ADICIONAR AQUI OS CONTEÚDOS DA PÁGINA!!! -->
-        <div class="principal">
-            <h4>Descubra informações e o melhor caminho para a sua carreira</h4>
-            <h1>FAÇA PARTE!</h1>
-        </div>
-        <div class="imgconteudo">
-            <img src="img/gow.png" alt="postergame" width="500" height="500">
-            <img src="img/spider.png" alt="postergame" width="500" height="500">
-            <img src="img/esports.png" alt="esports" width="500" height="500">
-        </div>
-        <div class="title">
-            <h2 class="gowtitle"><a href="https://br.ign.com/god-of-war-ragnarok/108632/news/acabou-a-esperanca-proximo-god-of-war-nao-tera-recurso-pedido-por-muitos-fas-diz-cory-barlog#:~:text=Ainda%20não%20há%20qualquer%20tipo,em%20God%20of%20War%20Ragnarok." target="_blank">God of War: Ragnarok</a></h2>
-            <h2 class="spidertitle"><a href="https://meups.com.br/noticias/marvels-spider-man-2-o-melhor-da-insomniac/" target="_blank">Spider-Man 2</a></h2>
-            <h2 class="esportstitle"><a href="https://criticalhits.com.br/games/profissao-gamer-veja-como-o-mercado-de-esports-tem-se-profissionalizado-no-brasil/" target="_blank">eSports</a></h2>
-        </div>
-        <div class="description">
-            <p class="gowdescription">Acabou a esperança! Próximo God of War não terá recurso pedido por muitos fãs, diz Cory Barlog.</p>
-            <p class="spiderdescription">Marvel’s Spider-Man 2: dev quer entregar “o melhor jogo” já feito pelo estúdio.</p>
-            <p class="esportsdescription">Profissão gamer: veja como o mercado de eSports tem se profissionalizado no Brasil.</p>
-        </div>
-        <div class="titlecurso">
-            <h1>A sua jornada começa aqui!</h1>
-            <p>Somos uma equipe que ajuda todos os dias novos profissionais realizarem seus sonhos no mundo gamer.</p>
-            <img src="img/curso.png" alt="feliz">
-        </div>
-    </main>
-    <footer>
-        <div class="row">
-            <div class="col">
-                <img src="img/logo.png" class="logo" alt="logo">
-                <p>Frase de slogan da empresa</p>
-            </div>
-            <div class="col">
-                <h3>Início <div class="underline"><span></span></div></h3>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="">Quem Somos</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Parceiros</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h3>Utilidades <div class="underline"><span></span></div></h3>
-                <ul>
-                    <li><a href="">Ajude-nos a melhorar</a></li>
-                    <li><a href="">Termos de uso</a></li>
-                    <li><a href="">Aviso de privacidade</a></li>
-                    <li><a href="">Preferência de cookies</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h3>Receba novidades no email! <div class="underline"><span></span></div></h3>
-                <form>
-                    <i class="fa-solid fa-envelope"></i>
-                    <input type="email" placeholder="Seu email" required>
-                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
-                </form>
-                <div class="social-icons">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <p class="copyright">Copyright © 2023 Projeto Gamer</p>
-    </footer>
-    <!-- MODAL -->
-    <script type="text/javascript" src="scripts/bioep.min.js"></script>
-    <script type="text/javascript" src="scripts/editar.js"></script>
-    <!-- MODAL -->
+    </div>
+    <hr>
+    <p class="copyright">Copyright © 2023 Projeto Gamer</p>
+</footer>
+<!-- MODAL -->
+<script type="text/javascript" src="scripts/bioep.min.js"></script>
+<script type="text/javascript" src="scripts/editar.js"></script>
+<!-- MODAL -->
 </body>
 </html>

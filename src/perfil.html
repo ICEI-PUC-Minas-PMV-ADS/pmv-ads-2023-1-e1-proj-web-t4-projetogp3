@@ -12,118 +12,114 @@
     <title>Perfil</title>
 </head>
 <body class="cointainer">
-    <header>
-        <div class="header" id="header">
-            <div class="logo-header">
-                <img src="img/planet.png" alt="LOGO PG">
-            </div>
+<header>
+    <div class="header" id="header">
+        <div class="logo-header">
+            <img src="img/planet.png" alt="LOGO PG">
         </div>
-        <div class="bar">
-            <a href="principal.html" class="active">Home</a>
-            <a href="#">Quem Somos</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
-        </div>
-        <div class="main">
-            <a href="perfil.html" class="user"><i class="fa-solid fa-user"></i>Perfil</a>
-            <a href="home.html">Deslogar</a>
-        </div>
-    </header>
-    <main>
-        <!-- ADICIONAR AQUI OS CONTEÚDOS DA PÁGINA!!! -->
-        <section class="perfil" id="capa" class="wallpaper">
-            <div></div>
-            <section class="mid">
-                <label class="picture" for="picture__input">
-                    <span class="picture__image"></span>
-                </label>
-                  <input type="file" name="picture__input" id="picture__input">
-                <div id="info"></div>
-            </section>
-            <div class="friends">Amigos
-                <div class="friends-number">53</div>
-            </div>
+    </div>
+    <div class="bar">
+        <a href="principal.html" class="active">Home</a>
+        <a href="quemsomos.html">Quem Somos</a>
+        <a href="service.html">Serviços</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    <div class="main">
+        <a href="perfil.html" class="user"><i class="fa-solid fa-user"></i>Perfil</a>
+        <a href="index.html">Deslogar</a>
+    </div>
+</header>
+<main>
+    <!-- ADICIONAR AQUI OS CONTEÚDOS DA PÁGINA!!! -->
+    <section class="perfil" id="capa" class="wallpaper">
+        <div></div>
+        <section class="mid">
+            <label class="picture" for="picture__input">
+                <span class="picture__image"></span>
+            </label>
+            <input type="file" name="picture__input" id="picture__input">
+            <div id="info"></div>
         </section>
-        <section class="personalization">
-            <section class="section-personalization-profile">
-                <div class="title-profile title">Personalize seu perfil</div>
-                <form class="profile-info">
-                    Nome <input type="text" id="profile-name" class="form-standard">
-                    Idade <input type="number" id="profile-age" class="form-standard">
-                    Bibliografia <input type="text" id="profile-bibliography" class="form-standard">
-                    Gênero <input type="text" id="profile-gender"class="form-standard">
-                    Localização <input type="text" id="profile-location" class="form-standard">
-                </form>
-                <button type="submit" onclick="trocarInfo()" class="save-button-personalization button-test">Salvar Alterações</button>
-                <button class="wallpaper-button button-test" id="capa_input" onclick="trocarCapa ()" type="color" >Alterar cor da capa</button>
-                <input type="color" id="cor_escolhida">
-            </section>
-            <section class="section-private-info">
-                <div class="title-private title">Informações Pessoais</div>
-                <form class="private-info">
-                    E-mail <input type="text" class="email form-standard">
-                    Senha <input type="text" class="password form-standard">
-                </form>
-                <div>
-                    <div class="custom-checkbox">
-                        <input id="checkbox-1" type="checkbox" class="question-public">
-                        <label for="checkbox-1">Perfil Público?</label>
-                      </div>
-                      <div class="custom-checkbox">
-                        <input id="checkbox-2" type="checkbox" class="question-private">
-                        <label for="checkbox-2">Receber e-mails?</label>
-                      </div>
+        <div class="friends">Amigos
+            <div class="friends-number">53</div>
+        </div>
+    </section>
+    <section class="personalization">
+        <section class="section-personalization-profile">
+            <div class="title-profile title">Personalize seu perfil</div>
+            <form class="profile-info">
+                Nome <input type="text" id="profile-name" class="form-standard">
+                Idade <input type="number" id="profile-age" class="form-standard">
+                Bibliografia <input type="text" id="profile-bibliography" class="form-standard">
+                Gênero <input type="text" id="profile-gender"class="form-standard">
+                Localização <input type="text" id="profile-location" class="form-standard">
+            </form>
+            <button type="submit" onclick="trocarInfo()" class="save-button-personalization button-test">Salvar Alterações</button>
+            <button class="wallpaper-button button-test" id="capa_input" onclick="trocarCapa ()" type="color" >Alterar cor da capa</button>
+            <input type="color" id="cor_escolhida">
+        </section>
+        <section class="section-private-info">
+            <div class="title-private title">Informações Pessoais</div>
+            <form class="private-info">
+                E-mail <input type="text" class="email form-standard">
+                Senha <input type="text" class="password form-standard">
+            </form>
+            <div>
+                <div class="custom-checkbox">
+                    <input id="checkbox-1" type="checkbox" class="question-public">
+                    <label for="checkbox-1">Perfil Público?</label>
                 </div>
-                <Button class="save-button-private button-test">Salvar Alterações</Button>
-            </section>
-        </section>
-    </main>
-    <footer>
-        <div class="row"> 
-            <div class="col">
-<<<<<<< HEAD
-                <img src="img/logo.png" alt="Logo do Projeto" class="logo">
-=======
-                <img src="img/logo.png" class="logo" alt="logo">
->>>>>>> main
-                <p>Frase de slogan da empresa</p>
-            </div>
-            <div class="col">
-                <h3>Início <div class="underline"><span></span></div></h3>
-                <ul>
-                    <li><a href="principal.html">Home</a></li>
-                    <li><a href="">Quem Somos</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Parceiros</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h3>Utilidades <div class="underline"><span></span></div></h3>
-                <ul>
-                    <li><a href="">Ajude-nos a melhorar</a></li>
-                    <li><a href="">Termos de uso</a></li>
-                    <li><a href="">Aviso de privacidade</a></li>
-                    <li><a href="">Preferência de cookies</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h3>Receba novidades no email! <div class="underline"><span></span></div></h3>
-                <form>
-                    <i class="fa-solid fa-envelope"></i>
-                    <input type="email" placeholder="Seu email" required>
-                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
-                </form>
-                <div class="social-icons">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-youtube"></i>
+                <div class="custom-checkbox">
+                    <input id="checkbox-2" type="checkbox" class="question-private">
+                    <label for="checkbox-2">Receber e-mails?</label>
                 </div>
             </div>
+            <Button class="save-button-private button-test">Salvar Alterações</Button>
+        </section>
+    </section>
+</main>
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="img/logo.png" class="logo" alt="logo">
+            <p>Frase de slogan da empresa</p>
         </div>
-        <hr>
-        <p class="copyright">Copyright © 2023 Projeto Gamer</p>
-    </footer>
+        <div class="col">
+            <h3>Início <div class="underline"><span></span></div></h3>
+            <ul>
+                <li><a href="principal.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="service.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="">Parceiros</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Utilidades <div class="underline"><span></span></div></h3>
+            <ul>
+                <li><a href="">Ajude-nos a melhorar</a></li>
+                <li><a href="">Termos de uso</a></li>
+                <li><a href="">Aviso de privacidade</a></li>
+                <li><a href="">Preferência de cookies</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Receba novidades no email! <div class="underline"><span></span></div></h3>
+            <form>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Seu email" required>
+                <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright © 2023 Projeto Gamer</p>
+</footer>
 </body>
 </html>
