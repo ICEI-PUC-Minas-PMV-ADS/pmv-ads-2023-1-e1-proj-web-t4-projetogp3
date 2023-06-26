@@ -43,7 +43,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* https://avid-bricolage-384412.web.app/index.html 
 
 # Armazenamento do Código-Fonte
 
