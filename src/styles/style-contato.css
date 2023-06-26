@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo2{
+    max-width: 130px;
+    border-radius: 15%;
+}
+
+.contato-chat{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgba(194, 31, 45, 0.286);
+    gap: 10px;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.sugestao{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.button-sugestao{
+    width: 100px;
+    height: 40px;
+    color: black;
+}
+
+
